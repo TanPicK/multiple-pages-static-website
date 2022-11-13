@@ -25,6 +25,7 @@ h1 {
 
 h2 {
   font-size: 48px;
+  margin-top: 16px;
 }
 
 h3 {
@@ -36,6 +37,11 @@ p {
   font-size: 18px;
   line-height: 1.5;
   margin-top: 0;
+}
+img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
 }
 
 .navigation-links {
@@ -115,4 +121,31 @@ p {
 .about-paragraph {
   margin: 30px 10px;
   text-align: center;
+}
+@media (max-width: 575.98px) {
+  h1 {
+    font-size: 72px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  h3 {
+    margin-top: 10px;
+  }
+
+  p {
+    text-align: center;
+  }
+  .paragraph-link {
+    text-align: center;
+  }
+  .about-image {
+    margin-top: 10px;
+  }
+  .contact-me {
+    font-size: 30px;
+  }
+  .email-link {
+    font-size: 18px;
+  }
 }
