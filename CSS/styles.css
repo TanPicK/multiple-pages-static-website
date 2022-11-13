@@ -115,21 +115,18 @@ img {
 .container {
   max-width: 1320px;
 }
-.about-paragraph {
-  margin: 30px 10px;
-  text-align: center;
-}
+
 .tango-image {
   padding: 10px;
-  border: 5px solid red;
+  border: 5px solid var(--primary-color);
 }
 .weather-image {
-  padding: 60px 10px;
-  border: 5px solid red;
+  padding: 64px 10px;
+  border: 5px solid var(--primary-color);
 }
 .certificate-image {
-  padding: 60px 10px;
-  border: 5px solid red;
+  padding: 58px 10px;
+  border: 5px solid var(--primary-color);
 }
 
 @media (max-width: 575.98px) {
