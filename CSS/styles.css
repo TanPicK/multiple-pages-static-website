@@ -63,8 +63,8 @@ img {
   color: var(--secondary-color);
 }
 .on-page {
-  text-decoration: underline;
-  color: var(--secondary-color) important!;
+  color: var(--secondary-color) !important;
+  font-weight: 700;
 }
 
 .contact-link {
