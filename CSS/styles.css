@@ -98,6 +98,7 @@ img {
   color: var(--secondary-color);
   font-size: 28px;
   text-decoration: none;
+  padding: 20px 15px;
 }
 
 .email-link:hover {
